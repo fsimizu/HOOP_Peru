@@ -12,6 +12,7 @@
 .imgImpact,
 .imgPurpose {
     width: 600px;
+    padding: 0 !important;
 }
 
 .imgImpact img,
@@ -23,10 +24,13 @@
 .contPurpose {
     width: 500px;
     margin: 30px;
+    padding: 0 !important;
 }
 
 .contImpact .text-main, .contPurpose .text-main{
     font-size: 18px;
+width: 105% !important;
+text-align: justify !important;
 }
 
 .contImpact h2, .contPurpose h2{
@@ -44,4 +48,13 @@
     .contImpact {
         order: -1;
     }
+}
+
+@media (max-width: 745px){
+    .contImpact .text-main, .contPurpose .text-main{
+        font-size: 17px;
+        padding-left: 40px;
+        padding-right: 50px;
+        text-align: center !important;
+    width: 100% !important;}
 }
