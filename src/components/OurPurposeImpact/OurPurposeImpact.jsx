@@ -9,16 +9,12 @@ const OurPurposeImpact = () => {
         <div className="col-12 col-md-6 contPurpose">
           <h2 className='section__header '>Our purpose</h2>
           <p className="text-main text-left">On the outskirts of the city of Arequipa many families have migrated from the A ndes in the search of better lives for their children. Due to lack of opportunities and economic difficulties they have established themselves on the edge of the city in what is called “Asentamiento Humano”. There, very few public services are available and the living conditions are difficult. HOOP operates where the poverty is high, many houses do not have running water or electricity, and the household income is very low.</p>
-          <p className="text-main text-left">Most moms are stay-at- home moms, and often have not had the chance to finish school. The fathers mostly work informally in construction and barely make a living. The children will often work with their parents spending time outside of school.</p>
+          <p className="text-main text-left">Most moms are stay-at- home moms, and often have not had the chance to finish school. The fathers mostly work informally in construction and barely make a living. The children will often work with their parents spending time outside of school.</p>        
+          <p className="text-main text-left">At HOOP, we know them all, we have been with our families for the past 10 years, because they deserve a fighting chance and they deserve opportunities. We started with one English class of 20 students in one room, and we are now teaching 120 students, 30 mothers and we offer psychological counseling, workshops, micro-finances, health campaigns and many other activities.</p>
         </div>
         <div className="col-12 col-md-6 imgPurpose">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/pOmbGOzIygI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-
-        <div>
-        <p className="text-main text-left container section__top-margin">At HOOP, we know them all, we have been with our families for the past 10 years, because they deserve a fighting chance and they deserve opportunities. We started with one English class of 20 students in one room, and we are now teaching 120 students, 30 mothers and we offer psychological counseling, workshops, micro-finances, health campaigns and many other activities.</p>
-        </div>
-
       </section>
       <section id='ourImpact' className="row impact section__top-margin">
         <div className="col-12 col-md-6 imgImpact">

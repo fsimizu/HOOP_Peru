@@ -25,6 +25,14 @@
     margin: 30px;
 }
 
+.contImpact .text-main, .contPurpose .text-main{
+    font-size: 18px;
+}
+
+.contImpact h2, .contPurpose h2{
+    font-size: 36px;
+}
+
 
 #ourPurpose h2,
 #ourImpact h2 {
