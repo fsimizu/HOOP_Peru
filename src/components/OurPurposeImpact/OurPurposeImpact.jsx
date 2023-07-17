@@ -16,7 +16,7 @@ const OurPurposeImpact = () => {
         </div>
 
         <div>
-        <p className="text-main text-left container">At HOOP, we know them all, we have been with our families for the past 10 years, because they deserve a fighting chance and they deserve opportunities. We started with one English class of 20 students in one room, and we are now teaching 120 students, 30 mothers and we offer psychological counseling, workshops, micro-finances, health campaigns and many other activities.</p>
+        <p className="text-main text-left container section__top-margin">At HOOP, we know them all, we have been with our families for the past 10 years, because they deserve a fighting chance and they deserve opportunities. We started with one English class of 20 students in one room, and we are now teaching 120 students, 30 mothers and we offer psychological counseling, workshops, micro-finances, health campaigns and many other activities.</p>
         </div>
 
       </section>
