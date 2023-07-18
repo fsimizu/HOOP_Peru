@@ -3,7 +3,7 @@ import './ourWork.css';
 
 export function OurWork() {
     return (
-        <div className="ourWork__container section__top-margin">
+        <div className="ourWork__container section__top-margin background-lightgray">
             <a id="our-work"></a>
             <div className="container">
                 <h2 className="section__header">Our work</h2>

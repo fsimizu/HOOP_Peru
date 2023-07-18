@@ -1,6 +1,6 @@
 /* HOME */
 .aboutUs__container {
-    background-image: url("/public/images/home/backgroundAbout.jpg");
+    background-image: url("/images/home/backgroundAbout.jpg");
     background-size: cover;
     background-position: top right;
 }

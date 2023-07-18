@@ -99,6 +99,9 @@ body {
 .background-gray {
     background: rgba(242, 240, 240, 1);
 }
+.background-lightgray {
+    background: rgba(217, 217, 217, 0.2);
+}
 .background-darkblue {
     background: rgba(28, 56, 85, 1);
 }
