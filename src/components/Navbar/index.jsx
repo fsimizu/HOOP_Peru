@@ -86,27 +86,27 @@ export function Navbar() {
                                 <ul className="dropdown-menu">
                                     <li>
                                         <Link to="/about-us">
-                                            <a className="dropdown-item" onClick={()=>{handleScrollToGetInTouch('heroCommon')}}><img className="navbar__icon" src="images/navbar_icon-history.svg" alt="Our story" /><p>Our History</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('heroCommon') }}><img id="navbar__icon-history" className="navbar__icon" src="images/navbar_icon-history.svg" alt="Our story" /><p>Our History</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/about-us">
-                                        <a className="dropdown-item" onClick={()=>{handleScrollToGetInTouch('our-results')}}><img className="navbar__icon" src="images/navbar_icon-testimonies.png" alt="Tesimonies" /><p>Testimonies</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('our-results') }}><img id="navbar__icon-testimonies" className="navbar__icon" src="images/navbar_icon-testimonies.png" alt="Tesimonies" /><p>Testimonies</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/about-us">
-                                            <a className="dropdown-item" onClick={()=>{handleScrollToGetInTouch('ourPurpose')}}><img className="navbar__icon" src="images/navbar_icon-purpose.png" alt="Purpose" /><p>Purpose</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('ourPurpose') }}><img id="navbar__icon-purpose" className="navbar__icon" src="images/navbar_icon-purpose.png" alt="Purpose" /><p>Purpose</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/about-us">
-                                            <a className="dropdown-item" onClick={()=>{handleScrollToGetInTouch('ourImpact')}}><img className="navbar__icon" src="images/navbar_icon-impact.png" alt="Impact" /><p>Impact</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('ourImpact') }}><img id="navbar__icon-impact" className="navbar__icon" src="images/navbar_icon-impact.png" alt="Impact" /><p>Impact</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/about-us">
-                                            <a className="dropdown-item" onClick={()=>{handleScrollToGetInTouch('team')}}><img className="navbar__icon" src="images/navbar_icon-team.png" alt="Team" /><p>Team</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('team') }}><img id="navbar__icon-team" className="navbar__icon" src="images/navbar_icon-team.png" alt="Team" /><p>Team</p></a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -117,32 +117,32 @@ export function Navbar() {
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkRight">
                                     <li>
                                         <Link to="/our-work">
-                                            <a className="dropdown-item" onClick={()=>{handleScrollToGetInTouch('heroCommon')}}><img className="navbar__icon" src="images/navbar_icon-all.png" alt="Our work" /><p>Our work</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('heroCommon') }}><img className="navbar__icon" src="images/navbar_icon-all.png" alt="Our work" /><p>Our work</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/education">
-                                            <a className="dropdown-item"><img className="navbar__icon" src="images/navbar_icon-education.png" alt="Education" /><p>Education</p></a>
+                                            <a className="dropdown-item"><img id="navbar__icon-education" className="navbar__icon" src="images/navbar_icon-education.png" alt="Education" /><p>Education</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/family">
-                                            <a className="dropdown-item" href="./family"><img className="navbar__icon" src="images/navbar_icon-family.png" alt="Family" /><p>Family</p></a>
+                                            <a className="dropdown-item" href="./family"><img id="navbar__icon-family" className="navbar__icon" src="images/navbar_icon-family.png" alt="Family" /><p>Family</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/community">
-                                            <a className="dropdown-item" href="./community"><img className="navbar__icon" src="images/navbar_icon-community.png" alt="Community" /><p>Community</p></a>
+                                            <a className="dropdown-item" href="./community"><img id="navbar__icon-community" className="navbar__icon" src="images/navbar_icon-community.png" alt="Community" /><p>Community</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/our-work">
-                                            <a className="dropdown-item" href=""><img className="navbar__icon" src="images/navbar_icon-impact.png" alt="Impact" /><p>Impact</p></a>
+                                            <a className="dropdown-item" href=""><img id="navbar__icon-impact" className="navbar__icon" src="images/navbar_icon-impact.png" alt="Impact" /><p>Impact</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/our-work">
-                                            <a className="dropdown-item" href=""><img className="navbar__icon" src="images/navbar_icon-reports.png" alt="reports" /><p>Annual reports</p></a>
+                                            <a className="dropdown-item" href=""><img id="navbar__icon-reports" className="navbar__icon" src="images/navbar_icon-reports.png" alt="reports" /><p>Annual reports</p></a>
                                         </Link>
                                     </li>
 
@@ -154,21 +154,25 @@ export function Navbar() {
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkRight">
                                     <li>
                                         <Link to="/volunteer">
-                                            <a className="dropdown-item" onClick={()=>{handleScrollToGetInTouch('heroCommon')}}><img className="navbar__icon" src="images/navbar_icon-all.png" alt="Volunteer" /><p>Volunteer</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('heroCommon') }}><img id="navbar__icon-all" className="navbar__icon" src="images/navbar_icon-all.png" alt="Volunteer" /><p>Volunteer</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/volunteer">
-                                            <a className="dropdown-item" onClick={()=>{handleScrollToGetInTouch('volunteer')}}><img className="navbar__icon" src="images/navbar_icon-opportunities.png" alt="opportunities" /><p>Opportunities</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('volunteer') }}><img id="navbar__icon-opportunities" className="navbar__icon" src="images/navbar_icon-opportunities.png" alt="opportunities" /><p>Opportunities</p></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/volunteer">
-                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('Volunteers') }}><img className="navbar__icon" src="images/navbar_icon-volunteers.png" alt="volunteers" /><p>Our volunteers</p></a>
+                                            <a className="dropdown-item" onClick={() => { handleScrollToGetInTouch('Volunteers') }}><img id="navbar__icon-volunteers" className="navbar__icon" src="images/navbar_icon-volunteers.png" alt="volunteers" /><p>Our volunteers</p></a>
                                         </Link>
                                     </li>
 
-                                    <li><a className="dropdown-item" href=""><img className="navbar__icon" src="images/navbar_icon-partners.png" alt="partners" /><p>Our partners</p></a></li>
+                                    <li>
+                                        <Link to="/volunteer">
+                                            <a className="dropdown-item" href=""><img id="navbar__icon-partners" className="navbar__icon" src="images/navbar_icon-partners.png" alt="partners" /><p>Our partners</p></a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </li>
 
