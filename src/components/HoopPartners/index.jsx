@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 export function Partners() {
 
     var settings = {
-        dots: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 2,
