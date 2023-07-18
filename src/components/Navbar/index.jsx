@@ -38,7 +38,6 @@ export function Navbar() {
 
     return (
         <div className="navbar__container bg-body-tertiary">
-
             <div id="myNav" className="overlay" >
                 <a href="javascript:void(0)" className="closebtn" onClick={handleCloseClick}>&times;</a>
                 <div className="overlay-content">
