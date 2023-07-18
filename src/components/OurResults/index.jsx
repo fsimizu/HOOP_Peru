@@ -14,7 +14,7 @@ export function OurResults({title}) {
 
                     <div className="col-12 col-lg-6 section__top-margin">
 
-                        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-bs-interval="true">
+                        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="true">
 
                             <div className="carousel-inner text-white">
                                 
