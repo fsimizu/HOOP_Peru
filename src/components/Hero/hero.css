@@ -40,4 +40,7 @@
     .hero__container img {
         height: 36px;
     }
+    .hero__container p {
+        font-size: 14px;
+    }
 }

@@ -27,7 +27,7 @@ export function Donate() {
                             </div>
                         </div>
                         <div>
-                            <a href="#" className="donate__readMore background-purple btn btn-secondary">Read more</a>
+                            <a href="https://gofund.me/4ff655cf" className="donate__readMore background-purple btn btn-secondary">Donate</a>
                         </div>
                     </div>
 

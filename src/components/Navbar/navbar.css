@@ -164,48 +164,48 @@
 
 /* About us */
 .dropdown-item:hover #navbar__icon-history {
-  content: url("images/navbar_icon-history-blue.png")
+  /* content: url("images/navbar_icon-history-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-testimonies {
-  content: url("images/navbar_icon-testimonies-blue.png")
+  /* content: url("images/navbar_icon-testimonies-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-purpose {
-  content: url("images/navbar_icon-purpose-blue.png")
+  /* content: url("images/navbar_icon-purpose-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-impact {
-  content: url("images/navbar_icon-impact-blue.png")
+  /* content: url("images/navbar_icon-impact-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-team {
-  content: url("images/navbar_icon-team-blue.png")
+  /* content: url("images/navbar_icon-team-blue.png") */
 }
 /* Our work */
 .dropdown-item:hover #navbar__icon-education {
-  content: url("images/navbar_icon-education-blue.png")
+  /* content: url("images/navbar_icon-education-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-family {
-  content: url("images/navbar_icon-family-blue.png")
+  /* content: url("images/navbar_icon-family-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-community {
-  content: url("images/navbar_icon-community-blue.png")
+  /* content: url("images/navbar_icon-community-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-impact {
-  content: url("images/navbar_icon-impact-blue.png")
+  /* content: url("images/navbar_icon-impact-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-reports {
-  content: url("images/navbar_icon-reports-blue.png")
+  /* content: url("images/navbar_icon-reports-blue.png") */
 }
 /* Volunteer */
 .dropdown-item:hover #navbar__icon-all {
-  content: url("images/navbar_icon-all-blue.png")
+  /* content: url("images/navbar_icon-all-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-opportunities {
-  content: url("images/navbar_icon-opportunities-blue.png")
+  /* content: url("images/navbar_icon-opportunities-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-volunteers {
-  content: url("images/navbar_icon-volunteers-blue.png")
+  /* content: url("images/navbar_icon-volunteers-blue.png") */
 }
 .dropdown-item:hover #navbar__icon-partners {
-  content: url("images/navbar_icon-partners-blue.png")
+  /* content: url("images/navbar_icon-partners-blue.png") */
 }
 
 
