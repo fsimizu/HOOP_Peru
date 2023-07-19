@@ -3,6 +3,7 @@ import './partners.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { typographyClasses } from "@mui/material";
 
 export function Partners() {
 
@@ -14,15 +15,15 @@ export function Partners() {
         autoplay: true,
         autoplaySpeed: 3000,
         dots: false,
-        arrows: false,
+        arrows: true,
+        className: "center",
 
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    centerMode: true,
-                    centerPadding: "60px",
+                    focusOnSelect: true,
                     slidesToScroll: 1,
 
                 }
@@ -31,6 +32,15 @@ export function Partners() {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: true,
+
+                }
+            },
+            {
+                breakpoint: 450,
+                settings: {
+                    slidesToShow: 1,
                     slidesToScroll: 1,
 
                 }

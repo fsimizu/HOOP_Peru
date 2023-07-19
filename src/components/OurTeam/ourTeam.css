@@ -12,7 +12,7 @@
 
 
 .member {
-    margin: 10px;
+    margin: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +20,7 @@
 
 .member img {
     border-radius: 120px;
+    margin-bottom: 12px;
 }
 
 .member h4 {
@@ -48,11 +49,10 @@
 
 
 .international {
-    margin: 50px 28px 12px 28px;
+    margin: 50px 20px 12px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 50px; */
 }
 
 

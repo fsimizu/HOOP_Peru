@@ -10,8 +10,8 @@
 }
 
 .cardVolunteers{
-    width: 330px;
-    height: 550px;
+    width: 280px;
+    height: 460px;
 }
 .cardMedia{
     display: flex;
@@ -20,7 +20,7 @@
     width: 200px !important;
 }
 .cardMedia img{
-    width: 180px !important;
+    width: 140px !important;
     border-radius: 50%;
 }
 
@@ -32,12 +32,14 @@
 }
 .contCard{
     display: flex;
+    width: 220px;
 }
 .pCard{
     color: rgba(28, 56, 85, 0.80);
 font-size: 17px;
 font-family: Roboto;
 font-weight: 300;
+
 }
 
 .detailP{

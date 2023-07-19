@@ -26,10 +26,22 @@
     margin-top: 60px;
 }
 
+.volunteer p{
+    margin-top: 40px;
+}
 
-.volunteer ul li {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.bannerVolunteer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner{
+    width: 900px;
+}
+
+.bannerVolunteer img{
+    width: 100%;
 }
 
 .buttonVolunteer {

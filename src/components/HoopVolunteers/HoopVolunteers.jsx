@@ -13,16 +13,14 @@ import { maxHeight } from '@mui/system';
 const HoopVolunteers = () => {
 
     var settings = {
-        dots: true,
-        infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 2,
         initialSlide: 0,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 4000,
         dots: false,
-        arrows: false,
+        arrows: true,
 
         responsive: [
             {
