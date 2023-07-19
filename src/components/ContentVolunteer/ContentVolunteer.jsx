@@ -40,13 +40,9 @@ const ContentVolunteer = () => {
     <p className='text-main strong'>Check out our active positions by clicking the banner below:</p>
     <div className='bannerVolunteer'>
         <div className='banner'>
-            <img src="./images/volunteer/bannerVolunteer.png" alt="" />
+          <a target='_blank' href="https://linktr.ee/welcomevolunteers"><img src="./images/volunteer/bannerVolunteer.png" alt="" /></a>  
         </div>
           
-    </div>
-
-    <div className='buttonVolunteer'>
-            <button>Volunteer</button>
     </div>
 <p className='text-main'>*All of our positions are volunteer/internship positions and are therefore unpaid.</p>
     <h3>Do you have questions about volunteering in hoop?</h3>
