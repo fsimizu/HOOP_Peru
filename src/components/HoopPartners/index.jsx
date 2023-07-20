@@ -15,7 +15,7 @@ export function Partners() {
         autoplay: true,
         autoplaySpeed: 3000,
         dots: false,
-        arrows: true,
+        arrows: false,
         className: "center",
 
         responsive: [

@@ -4,34 +4,6 @@ import { Card } from '@mui/material'
 import Slider from "react-slick";
 
 const ContentVolunteer = () => {
-    
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        initialSlide: 0,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-
-                }
-            }
-        ]
-    };
-
-
-
     return (
 <section >
 <div className='container volunteer'>
