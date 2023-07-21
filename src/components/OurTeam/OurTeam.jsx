@@ -36,7 +36,7 @@ const OurTeam = () => {
                   </div>
                   <div className="member">
                       <img src="./images/team6.png" alt="" />
-                      <h4>Elena Urday</h4>
+                      <h4>Eddy Machaca</h4>
                       <h5>HR Director</h5>
                   </div>
                   <div className="member">
