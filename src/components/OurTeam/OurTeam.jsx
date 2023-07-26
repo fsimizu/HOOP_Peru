@@ -5,7 +5,7 @@ const OurTeam = () => {
   return (
       <>
           <section id='team' className='background-lightgray section__top-margin3'>
-              <h2 className='section__header '>The Hoopteam</h2>
+              <h2 className='section__header '>HOOP</h2>
               <div className="team">
                   <div className="member">
                       <img src="./images/team1.png" alt="" />

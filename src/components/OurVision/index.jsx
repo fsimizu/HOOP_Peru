@@ -24,7 +24,7 @@ export function OurVision() {
                         <div className="ourVision__icon"><div><img src="/images/vision_icon2.svg" alt="" /></div></div>
                         <h3 className="ourVision__subheader section__subheader text-pink">Our mission</h3>
                         <p className="ourVision__text text-main"><strong>Families transforming communities.</strong><br />
-                            Our goal is to provide people with the necessary tools for them to become the change agents within their own community and generate their own development.</p>
+                            Our goal is to provide people with the necessary tools for them to become agent of the change within their own community and generate their own development.</p>
                     </div>
 
                     <div className="ourVision__item">

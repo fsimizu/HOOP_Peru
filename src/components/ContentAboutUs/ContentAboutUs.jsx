@@ -17,7 +17,7 @@ const ContentAboutUs = () => {
                         <div className="text.main text-left">
                             <p>
                                 <strong>Families transforming communities.</strong> <br />
-                                Our goal is to provide people with the necessary tools for them to become the change agents within their own community and generate their own development.
+                                Our goal is to provide people with the necessary tools for them to become agent of the change within their own community and generate their own development.
                             </p>
                         </div>
 
@@ -31,7 +31,7 @@ const ContentAboutUs = () => {
                         </div>
                         <div className="text.main text-left">
                             <p> <strong>To  promote the comprehensive development of individuals and their families through education.</strong>
-                                We understand education as the promotion of knowledge through workshops, the development of skills and academic complementarity to improve people’s abilities.</p>
+                            We understand education as the promotion of knowledge through skills development, workshop and academic activities to improve people's abilities</p>
                         </div>
                     </div>
 

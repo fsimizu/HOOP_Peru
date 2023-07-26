@@ -37,8 +37,6 @@ const Timeline = () => {
   <h2 className='section__header'>
   Our History
   </h2>
-  <h3>
-  Years 2012-2022</h3>
   <div className='timeline'>
   <div className='topTimeline'>
 <div class="parent">

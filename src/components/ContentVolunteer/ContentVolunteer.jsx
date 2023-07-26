@@ -19,6 +19,7 @@ const ContentVolunteer = () => {
 <p className='text-main'>*All of our positions are volunteer/internship positions and are therefore unpaid.</p>
     <h3>Do you have questions about volunteering in hoop?</h3>
     <h3>Read our FAQ or send us an email at info@hoop.ngo To learn more about our work, you can review our Annual Reports.</h3>
+    <h3>Please note that all of our positions are volunteer/internship positions and are therefor unpaid.</h3>
 </div>          
         </section>
 

@@ -50,7 +50,7 @@ const HoopVolunteers = () => {
             <section id='Volunteers' className='section__top-margin2 background-lightgray'>
                 <div className='container volunteers'>
                     <a id="volunteers"></a>
-                    <h2 className='section__header'>Hoop Volunteers</h2>
+                    <h2 className='section__header'>HOOP</h2>
                     <img className="section__underline" src="/images/underline.svg" alt="" />
                     <Slider {...settings} >
                         <div className='slider'>
