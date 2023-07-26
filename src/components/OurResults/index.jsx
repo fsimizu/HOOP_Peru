@@ -40,7 +40,7 @@ export function OurResults({title}) {
                                         <div><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i></div>
                                         <div><img src="/images/results_line.png" alt="" /></div>
                                         <div className="carousel-item-subheader">Testimony señora Ceferina:</div>
-                                        <p className="text-main"> I am in HOOP; because they help us with English classes and also other support with the moms, for example for me, I participate in the knitting activity and we became a team</p>
+                                        <p className="text-main"> I am in HOOP; because they help us with English classes and also other support with the moms, for example for me, I participate in the knitting activity and we became a team.</p>
                                     </div>
                                 </div>
 

@@ -10,7 +10,7 @@ export const GetInTouch = () => {
         <div className='row contentGetInTouch'>
           <div className="col-12 col-lg-6 getInTouch__form">
             <h2 className="section__header">Get in <span className='text-pink'>touch</span></h2>
-            <p className="text-grey">Get in touch with HOop and be a part of our mission to empower communities in the northern cone of Arequipa. Share your name and email to join us in making a positive impact together.</p>
+            <p className="text-grey">Get in touch with HOOp and be a part of our mission to empower communities in the northern part of Arequipa. Share your name and email to join us in making a positive impact together.</p>
 
             <form action="https://formsubmit.co/info@hoop.ngo" method="POST" >
               <div><input type="text" id="nombre" placeholder="Name" name="name" required /></div>

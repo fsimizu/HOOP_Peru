@@ -21,7 +21,7 @@ export function Donate() {
                                 <h2>Donate</h2>
                             </div>
                             <div className="card-body background-pink">
-                                <h5 className="card-title section__header">Donate</h5>
+                                <h5 className="card-title section__subheader">Donate</h5>
                                 <p className="text-main card-text">You can help fund education and health for the  people of Flora Tristán by donating to HOOP</p>
 
                             </div>
@@ -37,7 +37,7 @@ export function Donate() {
                                 <h2>Become a partner</h2>
                             </div>
                             <div className="card-body background-lightblue">
-                                <h5 className="card-title section__header">Become a partner</h5>
+                                <h5 className="card-title section__subheader">Become a partner</h5>
                                 <p className="text-main card-text">Advocate for the future of mothers and children of Flora Tristán by partnering with HOOP to ensure a promising future.</p>
                             </div>
                         </div>
@@ -52,12 +52,12 @@ export function Donate() {
                                 <h2>Become a volunteer</h2>
                             </div>
                             <div className="card-body background-lightyellow">
-                                <h5 className="card-title section__header">Become a volunteer</h5>
+                                <h5 className="card-title section__subheader">Become a volunteer</h5>
                                 <p className="text-main card-text">We could use an extra set of hands to help mothers and children of Flora Tristán. You can better the course of their lives by sharing your time and knowledge through one or more of HOOP’s iniciatives.</p>
                             </div>
                         </div>
                         <div>
-                            <a href="#" className="donate__readMore background-yellow btn btn-secondary">Read more</a>
+                            <a href="/volunteer" className="donate__readMore background-yellow btn btn-secondary">Read more</a>
                         </div>
                     </div>
                 </div>
