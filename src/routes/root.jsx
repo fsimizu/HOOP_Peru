@@ -8,6 +8,7 @@ import { OurResults } from "../components/OurResults";
 import { OurVision } from "../components/OurVision";
 import { OurWork } from "../components/OurWork";
 import { Layout } from "../layout/Layout.jsx";
+import HoopVolunteers from "../components/HoopVolunteers/HoopVolunteers";
 
 
 export function Root() {
@@ -21,6 +22,7 @@ export function Root() {
         <OurVision />
         <OurWork />
         <OurResults title={"Our Results"} />
+        <HoopVolunteers/>
         <Partners />
         <GetInTouch />
       </Layout>

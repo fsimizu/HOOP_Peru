@@ -15,16 +15,16 @@ const OurTeam = () => {
                   <div className="member">
                       <img src="./images/team2.png" alt="" />
                       <h4>Cristabel Farronay </h4>
-                      <h5>Education coordinator</h5>
+                      <h5>Education Coordinator</h5>
                   </div>
                   <div className="member">
                       <img src="./images/team3.png" alt="" />
                       <h4>Marina Lobato</h4>
-                      <h5>Community coordinator</h5>
+                      <h5>Community Coordinator</h5>
                   </div>
                   <div className="member">
                       <img src="./images/team4.png" alt="" />
-                      <h4>Lucia Cardenas</h4>
+                      <h4>Lucia Cárdenas</h4>
                       <h5>Family Coordinator</h5>
                   </div>
               </div>
@@ -42,11 +42,11 @@ const OurTeam = () => {
                   <div className="member">
                       <img src="./images/team7.png" alt="" />
                       <h4>Camila Guzmán</h4>
-                      <h5>Directora de comunicacion</h5>
+                      <h5>Communications Director</h5>
                   </div>
                   <div className="member">
                       <img src="./images/team8.png" alt="" />
-                      <h4>Wileny Cardenas</h4>
+                      <h4>Wileny Cárdenas</h4>
                       <h5>Legal Assistant</h5>
                   </div>
               </div>

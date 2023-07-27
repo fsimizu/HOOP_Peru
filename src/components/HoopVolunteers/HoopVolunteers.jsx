@@ -15,10 +15,10 @@ const HoopVolunteers = () => {
     var settings = {
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 10000,
         dots: false,
         arrows: false,
 

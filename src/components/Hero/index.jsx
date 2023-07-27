@@ -10,7 +10,7 @@ export function Hero() {
                             <h4 className="mb-3 text-main text-right">We are</h4>
                             <img src="/images/hero_logo.png" alt="" />
                             <p className="mb-3">Helping Overcome Obstacles Peru</p>
-                            <h4 className="mb-3 text-main text-right"><strong>An NGO working with communities in the <span className="hero__yellow-text">cono norte of Arequipa Peru.</span></strong></h4>
+                            <h4 className="mb-3 text-main text-right"><strong>An NGO working with communities in <span className="hero__yellow-text">Arequipa,Peru.</span></strong></h4>
                         </div>
                 </div>
             </div>

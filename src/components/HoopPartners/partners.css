@@ -33,6 +33,11 @@
 
 }
 
+.becameApartner a {
+    color: white;
+    text-decoration: none;
+}
+
 .slick-prev,
 .slick-next {
     color: black !important;
@@ -63,6 +68,8 @@
         width: 380px;
         font-size: 30px;
         height: 70px;
+
+        
 
 
     }
