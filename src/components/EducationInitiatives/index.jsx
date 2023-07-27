@@ -22,7 +22,7 @@ export function EducationInitiatives() {
                     <div className="educationInitiatives__card-content overflow-hidden" id="educationInitiatives_card2">
                         <h2>The Coding Kuska project</h2>
                         <div className="educationInitiatives__border">
-                        <p>"Kuska" mean together in quechua and through that project, HOOP enables members of the community to learn about programming, so they can broaden their horizons and seek a better future.</p>
+                        <p>"Kuska" means together in quechua and through that project, HOOP enables members of the community to learn about programming, so they can broaden their horizons and seek a better future.</p>
                         </div>
                     </div>
                 </div>

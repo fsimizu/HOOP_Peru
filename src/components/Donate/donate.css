@@ -74,6 +74,9 @@
     border: none;
 }
 
+.donate__cards .section__subheader {
+    margin-bottom: 20px;
+}
 
 #card-image-1 {
     background-image: url('/images/donate_card1.png');
