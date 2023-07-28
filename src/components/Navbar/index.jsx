@@ -135,13 +135,13 @@ export function Navbar() {
                                             <a className="dropdown-item" href="./community"><img id="navbar__icon-community" className="navbar__icon" src="images/navbar_icon-community.png" alt="Community" /><p>Community</p></a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link to="/our-work">
                                             <a className="dropdown-item" href="https://linktr.ee/hoopreports"><img id="navbar__icon-impact" className="navbar__icon" src="images/navbar_icon-impact.png" alt="Impact" /><p>Impact</p></a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
-                                        <Link to="/our-work">
+                                        <Link to="https://linktr.ee/hoopreports">
                                             <a className="dropdown-item" href="https://linktr.ee/hoopreports"><img id="navbar__icon-reports" className="navbar__icon" src="images/navbar_icon-reports.png" alt="reports" /><p>Annual reports</p></a>
                                         </Link>
                                     </li>
