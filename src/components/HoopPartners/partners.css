@@ -51,10 +51,12 @@
 
 .slick-prev {
     left: 4% !important;
+    z-index: 1 !important;
 }
 
 .slick-next {
     right: 4% !important;
+    z-index: 1 !important;
 }
 
 
