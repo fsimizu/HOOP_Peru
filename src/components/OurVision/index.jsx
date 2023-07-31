@@ -17,7 +17,7 @@ export function OurVision() {
                         <div className="ourVision__icon"><div><img src="/images/vision_icon1.svg" alt="" /></div></div>
                         <h3 className="ourVision__subheader section__subheader text-pink">Our vision</h3>
                         <p className="ourVision__text text-main"><strong>To promote the comprehensive development of individuals and their families through education.</strong><br />
-                            We understand education as the promotion of knowledge through skills, development, workshop and academic activities to improve people’s abilities.</p>
+                            We understand education as the promotion of knowledge through skills, development, workshop and academic activities to improve people's abilities.</p>
                     </div>
 
                     <div className="ourVision__item">

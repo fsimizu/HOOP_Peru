@@ -15,7 +15,7 @@ export function OurProjects() {
                         </div>
                     </a>
                     <div>
-                        <a href="#" className="text-main btn btn-secondary buttonProjects1"><strong>Read more</strong></a>
+                        <a href="https://www.instagram.com/floracircular/" className="text-main btn btn-secondary buttonProjects1"><strong>Read more</strong></a>
                     </div>
                 </div>
 
@@ -26,7 +26,7 @@ export function OurProjects() {
                         </div>
                     </a>
                     <div>
-                        <a href="#" className="text-main btn buttonProjects"><strong>Buy Now</strong></a>
+                        <a href="https://www.instagram.com/ruwana.aqp/" className="text-main btn buttonProjects"><strong>Buy Now</strong></a>
                     </div>
                 </div>
             </div>
