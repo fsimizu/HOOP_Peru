@@ -42,7 +42,7 @@ export function Donate() {
                             </div>
                         </div>
                         <div>
-                            <a href="#" className="donate__readMore background-green btn btn-secondary">Read more</a>
+                            <a href="mailto:info@hoop.ngo" className="donate__readMore background-green btn btn-secondary">Become a partner</a>
                         </div>
                     </div>
 
