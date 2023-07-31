@@ -107,7 +107,7 @@ export function Partners() {
 
     </Slider>
 <div className="buttonPartners">
-     <button className="becameApartner"><a href="mailto:info@hoop.ngo">Became a HOOP partner</a> </button>
+     <button className="becameApartner"><a href="mailto:info@hoop.ngo">Become a HOOP partner</a> </button>
 </div>
     </div>
 </div>

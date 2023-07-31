@@ -5,9 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./hoopVolunteers.css"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { maxHeight } from '@mui/system';
 
 
 const HoopVolunteers = () => {
@@ -20,29 +18,29 @@ const HoopVolunteers = () => {
         autoplay: true,
         autoplaySpeed: 10000,
         dots: false,
-        arrows: false,
+        arrows: true,
 
         responsive: [
             {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    centerPadding: "60px",
-
-                }
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "10px",
+              },
             },
             {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerPadding: "60px",
-
-                }
-            }
-        ]
-    };
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "10px",
+              },
+            },
+          ],
+        };
 
 
     return (
