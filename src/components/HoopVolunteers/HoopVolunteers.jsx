@@ -18,7 +18,7 @@ const HoopVolunteers = () => {
         autoplay: true,
         autoplaySpeed: 10000,
         dots: false,
-        arrows: true,
+        arrows: false,
 
         responsive: [
             {

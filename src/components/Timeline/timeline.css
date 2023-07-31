@@ -105,9 +105,6 @@
 
 @media screen and (max-width: 1000px) {
 
-  /* #timeline{
-  background-image: none;
-} */
   .timeline {
     display: none;
   }
@@ -139,7 +136,7 @@
 
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
 
   .pLine,
   .pLine2 {
@@ -148,4 +145,11 @@
     top: 120%;
   }
 
+  .timelineMobile{
+    width: 280px;
+padding: 1rem;
+  }
+  .timelineMobile img{
+    width: 100%;
+  }
 }

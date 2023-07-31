@@ -8,6 +8,7 @@ const GoalsHoop = () => {
 
     let settings2 = {
         dots: false,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
