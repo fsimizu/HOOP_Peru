@@ -1,2 +1,6 @@
 # hoop_front
-Repo para el front the HOOP ONG
+Repo with the React code for the NGO HOOP Peru
+
+www.hoopperu.org
+www.hoopperu1.dreamhosters.com
+www.hoopperu.vercel.app
