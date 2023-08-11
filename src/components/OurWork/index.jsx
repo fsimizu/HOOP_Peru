@@ -1,7 +1,22 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import { scroller } from 'react-scroll';
 import './ourWork.css';
 
 export function OurWork() {
+
+    const handleScrollToGetInTouch = (id) => {
+        setTimeout(() => { scrollToGetInTouch(id) }, 200);
+    };
+
+    const scrollToGetInTouch = (id) => {
+        scroller.scrollTo(id, {
+            duration: 400,
+            offset: -60,
+        });
+    };
+
+
     return (
         <div className="ourWork__container section__top-margin background-lightgray">
             <a id="our-work"></a>
@@ -17,7 +32,11 @@ export function OurWork() {
                             <div className="card-body background-darkblue">
                                 <h5 className="section__subheader card-title">Education</h5>
                                 <p className="card-text">We provide free English and coding classes for children between 3 and 17 years old, primary and secondary education for adults.</p>
-                                <div className="ourWork__readMore"><a href="/education" className="btn btn-outline-light">Read more</a></div>                 
+                                <div className="ourWork__readMore">
+                                    <Link to="/education">
+                                        <a className="btn btn-outline-light" onClick={() => { handleScrollToGetInTouch('heroCommon') }}>Read more</a>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -28,7 +47,11 @@ export function OurWork() {
                             <div className="card-body background-purple">
                                 <h5 className="section__subheader card-title">Family</h5>
                                 <p className="card-text">We promote and raise awareness about mental and physical health through psychoeducational workshops and activities to achieve self-knowledge, emotional management and well-being.</p>
-                                <div className="ourWork__readMore" ><a href="/family" className="btn btn-outline-light">Read more</a></div> 
+                                <div className="ourWork__readMore" >
+                                    <Link to="/family">
+                                        <a className="btn btn-outline-light" onClick={() => { handleScrollToGetInTouch('heroCommon') }}>Read more</a>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -39,7 +62,11 @@ export function OurWork() {
                             <div className="card-body background-green">
                                 <h5 className="section__subheader card-title">Community</h5>
                                 <p className="card-text">We give consultation and training in composting and knitting that create opportunities for the communities that manage these projects.</p>
-                                <div className="ourWork__readMore"><a href="/community" className="btn btn-outline-light">Read more</a></div> 
+                                <div className="ourWork__readMore">
+                                    <Link to="/community">
+                                        <a className="btn btn-outline-light" onClick={() => { handleScrollToGetInTouch('heroCommon') }}>Read more</a>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -47,4 +74,5 @@ export function OurWork() {
                 </div>
             </div>
         </div>
-)}
+    )
+}

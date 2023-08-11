@@ -5,7 +5,7 @@
     z-index: 2;
 }
 
-.getInvolvedBtn__container a {
+.getInvolvedBtn__container .btn {
     height: 100%;
     width: 200px;
     position: absolute;
@@ -28,7 +28,7 @@
 }
 
 @media (max-width: 425px) {
-    .getInvolvedBtn__container a {
+    .getInvolvedBtn__container .btn {
         width: 150px;
         line-height: 40px;
         border-radius: 16px;
