@@ -1,6 +1,13 @@
-# hoop_front
-Repo with the React code for the NGO HOOP Peru
+# HOOP PERU
 
-www.hoopperu.org
-www.hoopperu1.dreamhosters.com
-www.hoopperu.vercel.app
+Front end project for the NGO HOOP from Peru.
+
+## Hosted in
+
+* www.hoopperu.org (Production)
+* www.hoopperu.vercel.app (Test)
+
+## Authors
+
+* Fernando Simizu
+* Ezequiel Iribarren
